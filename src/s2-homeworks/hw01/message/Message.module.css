@@ -1,0 +1,97 @@
+.message {
+    position: relative;
+    top: 24px;
+    left: 635px;
+    width: 575px;
+    height: 77px;
+   
+}
+
+.imageAndText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 575px;
+    height: 60px;
+
+}
+
+.imageAndText img {
+    position: absolute;
+    top: 12px;
+    left: 527px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+}
+
+.text {
+position: absolute;
+    left:0;
+    top:0;
+    width: 512px;
+    height: 60px;
+    background: #0066CC;
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
+    border-radius: 10px 10px 0 10px;
+}
+
+.text:after {
+    position: absolute;
+
+}
+
+.name {
+position: absolute;
+    top:7px;
+    right: 31px;
+    width: 40px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.messageText {
+    position: absolute;
+    top: 32px;
+    left: 13px;
+    width: 489px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.time {
+    position: absolute;
+    top: 65px;
+    right: 11px;
+    width: 26px;
+    height: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.angle {
+    position: absolute;
+    left: 512px;
+    top: 45px;
+    width: 15px;
+    height: 15px;
+
+    background: radial-gradient(circle at 16px 0, rgba(0, 0, 0, 0) 15px, rgb(0, 102, 204) 0);
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
+}

@@ -1,0 +1,73 @@
+.App {
+    width: 1280px;
+    height: 3000px;
+
+}
+
+.hw1 {
+    position: absolute;
+    top: 107px;
+    left: 0;
+    height: 373px;
+    width: 100%;
+
+}
+
+.hw {
+    position: absolute;
+    top: 27px;
+    height: 346px;
+    width: 1360px;
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+}
+
+.hw2 {
+    position: absolute;
+    top: 519px;
+    left: 0;
+    height: 373px;
+    width: 100%;
+}
+
+.hw3 {
+    position: absolute;
+    top: 927px;
+    left: 0;
+    height: 373px;
+    width: 100%;
+}
+
+.hw4 {
+    position: absolute;
+    top: 1335px;
+    left: 0;
+    height: 373px;
+    width: 100%;
+}
+.hw5 {
+
+}
+.hw6 {
+position: absolute;
+    top: 0px;
+}
+.hw7 {
+    position: absolute;
+    top: 600px;
+}
+
+.hwTitle {
+    position: relative;
+    top: 0;
+    left: 70px;
+    width: 165px;
+    height: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+
+}
