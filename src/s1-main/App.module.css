@@ -1,5 +1,5 @@
 .App {
-    width: 1280px;
+    width: 1400px;
     height: 3000px;
 
 }
@@ -17,7 +17,7 @@
     position: absolute;
     top: 27px;
     height: 346px;
-    width: 1360px;
+    width: 1450px;
     border-bottom: 1px solid #D9D9D9;
     border-top: 1px solid #D9D9D9;
 }
@@ -50,12 +50,18 @@ position: absolute;
 
 }
 .hw6 {
-position: absolute;
-    top: 200px;
+    position: absolute;
+    top: 107px;
+    left: 0;
+    height: 373px;
+    width: 100%;
 }
 .hw7 {
     position: absolute;
-    top: 600px;
+    top: 519px;
+    left: 0;
+    height: 373px;
+    width: 100%;
 }
 
 .hwTitle {
