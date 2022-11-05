@@ -2,6 +2,8 @@
     position: absolute;
     left: 0;
     top: 0;
+
+
 }
 
 .select:focus {
@@ -9,4 +11,5 @@
 
 
 .option:hover {
+    background-color: #00cc22;
 }
