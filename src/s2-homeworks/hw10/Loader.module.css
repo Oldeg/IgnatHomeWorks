@@ -4,3 +4,8 @@
     height: 200px;
     width: 200px;
 }
+
+.loadingBox {
+    position: absolute;
+    left: 30px;
+}
