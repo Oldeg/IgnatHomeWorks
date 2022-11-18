@@ -1,8 +1,18 @@
 .buttonsContainer {
-position: absolute;
-
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 330px;
+    box-sizing: border-box;
+    flex-direction: row;
+    position: absolute;
+    left: 70px;
+    top: 76px;
+    align-items: flex-end;
 }
 
 .editableSpanContainer {
-
+    position: absolute;
+    left: 0;
+    top: 32px
 }

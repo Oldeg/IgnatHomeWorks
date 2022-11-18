@@ -64,7 +64,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     return (
         <>
             {editMode ? (
-                <SuperInputText
+                 <SuperInputText
                     autoFocus={autoFocus || true}
                     onBlur={onBlurCallback}
                     onEnter={onEnterCallback}

@@ -35,7 +35,7 @@ const HW7 = () => {
                             onChangeOption={onChangeOption}
                         />
                     </div>
-                    <div >
+                    <div  >
                         <SuperRadio
                             id={'hw7-super-radio'}
                             name={'hw7-radio'}

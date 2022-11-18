@@ -1,7 +1,10 @@
 .container {
     position: absolute;
-    width: 403px;
+    width: 350px;
     height:102px;
     top: 32px;
     left: 70px;
+    display: flex;
+    justify-content: space-between;
 }
+

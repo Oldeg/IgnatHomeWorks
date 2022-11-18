@@ -1,11 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 .spanBlock {
+
 }
 
 .span {
+    position: absolute;
+    left: 104px;
+    width: 80px;
 }
 
 .input {
+    min-width: 100px;
+
 }
 
 .pen {
+    position: absolute;
+    left: 70px;
 }

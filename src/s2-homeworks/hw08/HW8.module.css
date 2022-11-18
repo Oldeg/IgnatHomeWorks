@@ -5,18 +5,29 @@
 }
 
 .users {
+    width: 392px;
+    height: 196px;
+
+
 }
 
 .buttonsContainer {
+
 }
 
 .container {
+    position: absolute;
+    top: 33px;
+    left: 70px;
+    width: 606px;
+    height: 244px;
 }
 
 .thead {
 }
 
 .nameCol {
+    margin-top: 10px;
 }
 
 .ageCol {
