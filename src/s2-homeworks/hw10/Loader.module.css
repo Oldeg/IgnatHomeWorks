@@ -1,3 +1,6 @@
 .loader {
-    /*свг и/или анимация*/
+    background-image: url("https://sezeromer.com/wp-content/uploads/2019/09/Infinity-1s-200px.gif");
+
+    height: 200px;
+    width: 200px;
 }
