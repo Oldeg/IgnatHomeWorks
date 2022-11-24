@@ -15,14 +15,15 @@ function HW11() {
     // for autotests // не менять // можно подсунуть в локалСторэдж нужные числа, чтоб увидеть как они отображаются
     const [value1, setValue1] = useState(restoreState<number>('hw11-value1', 0))
     const [value2, setValue2] = useState(restoreState<number>('hw11-value2', 100))
-
+    console.log()
     const change = (event: Event, value: number | number[]) => {
-        // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
+        // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый\
         if(Array.isArray(value)){
-            setValue1(value[0])
+            const valueTemp = value[0] < value[1] ? value[0]: value[1] - 1;
+            setValue1(valueTemp)
             setValue2(value[1])
         } else {
-            setValue1(value)
+            setValue1(value < value2 ? value: value2 - 1)
         }
     }
 
