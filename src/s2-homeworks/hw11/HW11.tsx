@@ -15,15 +15,14 @@ function HW11() {
     // for autotests // не менять // можно подсунуть в локалСторэдж нужные числа, чтоб увидеть как они отображаются
     const [value1, setValue1] = useState(restoreState<number>('hw11-value1', 0))
     const [value2, setValue2] = useState(restoreState<number>('hw11-value2', 100))
-    console.log()
     const change = (event: Event, value: number | number[]) => {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый\
-        if(Array.isArray(value)){
-            const valueTemp = value[0] < value[1] ? value[0]: value[1] - 1;
+        if (Array.isArray(value)) {
+            const valueTemp = value[0] < value[1] ? value[0] : value[1] - 1;
             setValue1(valueTemp)
             setValue2(value[1])
         } else {
-            setValue1(value < value2 ? value: value2 - 1)
+            setValue1(value < value2 ? value : value2 - 1)
         }
     }
 
@@ -46,7 +45,7 @@ function HW11() {
                         <span id={'hw11-value-1'} className={s.number}>{value1}</span>
                         <SuperRange
                             id={'hw11-double-slider'}
-                            value={[value1,value2]}
+                            value={[value1, value2]}
                             // сделать так чтоб value1/2 изменялось // пишет студент
                             onChange={change}
                         />
