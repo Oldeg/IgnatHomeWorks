@@ -45,10 +45,12 @@
     height: 373px;
     width: 100%;
 }
+
 .hw5 {
-position: absolute;
+    position: absolute;
 
 }
+
 .hw6 {
     position: absolute;
     top: 107px;
@@ -56,6 +58,7 @@ position: absolute;
     height: 373px;
     width: 100%;
 }
+
 .hw7 {
     position: absolute;
     top: 519px;
@@ -63,6 +66,7 @@ position: absolute;
     height: 373px;
     width: 100%;
 }
+
 .hw8 {
     position: absolute;
     top: 927px;
@@ -70,6 +74,7 @@ position: absolute;
     height: 373px;
     width: 100%;
 }
+
 .hw9 {
     position: absolute;
     top: 1335px;
@@ -77,19 +82,30 @@ position: absolute;
     height: 373px;
     width: 100%;
 }
-.hw10{
+
+.hw10 {
     position: absolute;
     top: 107px;
     left: 0;
     height: 373px;
     width: 100%;
 }
+
 .hw11 {
     position: absolute;
     top: 519px;
     left: 0;
     height: 373px;
     width: 100%;
+}
+
+.hw12 {
+    position: absolute;
+    top: 927px;
+    left: 0;
+    height: 373px;
+    width: 100%;
+
 }
 
 
